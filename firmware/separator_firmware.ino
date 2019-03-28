@@ -8,7 +8,7 @@ output channel. Segmented flow is detected in a given channel by comparing the d
 the channels. The valve position is updated by a servo.
 
 
-Andrew J Harvie Jan 2019
+Andrew J Harvie Feb 2019
  */
 
 #include <Servo.h>
@@ -17,9 +17,14 @@ Andrew J Harvie Jan 2019
 /////////////////////////////PARAMETERS TO CHECK///////////////////////////////////////////////////
 //Pin assignment
 #define ledPin 13
+
 //Pins for light-frequency converters
+//through channel
 #define ltfPin1 23
+//side channel
 #define ltfPin2 22
+
+//servo pin
 #define servoPin 9
 
 //Servo travel limits (depends on manufacturer)
@@ -27,6 +32,11 @@ Andrew J Harvie Jan 2019
 #define minPosition 1000
 
 /////////////////////////////PARAMETERS TO TUNE////////////////////////////////////////////////////
+/*
+Modify the following parameters if separator performance is unsatisfactory for a particular
+solvent system. Instructions on modification are available in supporting information.
+*/
+
 //multiply these two numbers to find how long getRSDs() takes
 #define samplingTime 20 //it's in ms
 #define numberBins 200
