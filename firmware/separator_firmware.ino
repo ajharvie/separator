@@ -1,11 +1,12 @@
 /*
 Arduino sketch for automated separator.
 
-Written for a Teensy 3.2 (www.pjrc.com/teensy) but should work on any arduino board that allows two hardware interrupts.
+Written for a Teensy 3.2 (www.pjrc.com/teensy) via teensyduino, but should work on any arduino board that allows 
+two hardware interrupts - just change the relevant pins.
 
 Two TSL235R-LF light-freqency converters (at 3.3V) are used to monitor light transmission through each separator 
-output channel. Segmented flow is detected in a given channel by comparing the differential RSD between
-the channels. The valve position is updated by a servo.
+output channel. Segmented flow is detected in a given channel by comparing the differential RSD between the 
+channels. The valve position is updated by a servo.
 
 
 Andrew J Harvie Feb 2019
