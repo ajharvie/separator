@@ -210,7 +210,7 @@ void getRSDs(){
 
 void errorlight(){
   //flash light 20 times if there's an error (usually reached max servo travel)
-  for(int i = 0; i<20; ++i){
+  for(int i = 0; i<5; ++i){
     digitalWrite(13, HIGH);
     delay(50);
     digitalWrite(13, LOW);
