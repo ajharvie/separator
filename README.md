@@ -4,6 +4,6 @@ This repository contains arduino firmware and design files required to implement
 
 The video file Video_S1.mp4 shows the separator in operation.
 
-Instructions on how to assemble and operate the described separator are in the supporting information.
+Instructions on how to assemble, operate and troubleshoot problems with the described separator are in the supporting information.
 
-**Andrew J Harvie, Jack O Herrington, John C de Mello**
+**Andrew J. Harvie, Jack O. Herrington, John C. de Mello**
