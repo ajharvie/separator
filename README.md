@@ -2,7 +2,7 @@
 
 This repository contains arduino firmware and design files required to implement an automated liquid-liquid separator described in Reaction Chemistry and Engineering. 
 
-Link to article: https://pubs.rsc.org/en/content/articlelanding/2019/re/c9re00144a#!divAbstract
+The article can be found at: https://doi.org/10.1039/C9RE00144A
 
 The video file Video_S1.mp4 shows the separator in operation.
 
